@@ -4,13 +4,13 @@ Tiny Logtail is a command-line program, simply printing log file lines that have
 
 ### Installation:
 ```
-cd tiny-logtail
-make
-chmod +x tiny-logtail
+$ cd tiny-logtail
+$ make
+$ chmod +x tiny-logtail
 ```
 ### Usage:
 ```
-tiny-logtail <log_file> <offset_file>
+$ tiny-logtail <log_file> <offset_file>
 ```
 ### Example:
 ```
