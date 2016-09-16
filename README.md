@@ -1,18 +1,18 @@
 # Tiny Logtail
 
-Tiny Logtail is a command-line program, simply printing log file lines that have not been read yet.
+Tiny Logtail is a command-line program, simply printing each line in a log file that has not been read yet.
 
-### Installation:
+## Installation:
 ```
 $ cd tiny-logtail
 $ make
 $ chmod +x tiny-logtail
 ```
-### Usage:
+## Usage:
 ```
 $ tiny-logtail <log_file> <offset_file>
 ```
-### Example:
+## Example:
 ```
 $ cat > abc.txt
 a
